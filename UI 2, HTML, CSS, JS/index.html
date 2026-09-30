@@ -1,0 +1,170 @@
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page UI Simpel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h2>Brand<span>Logo</span></h2>
+            </div>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#beranda">Home</a></li>
+                    <li><a href="#fitur">Fitur</a></li>
+                    <li><a href="#statistik">Statistik</a></li>
+                    <li><a href="#testimoni">Testimoni</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-action">
+                <button class="btn btn-primary btn-shimmer">
+                    <span>Mulai Sekarang</span>
+                </button>
+            </div>
+
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <section id="beranda" class="hero fade-up">
+        <div class="container">
+            <div class="hero-text">
+                <h1> Bisnis Anda</h1>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-lg btn-3d btn-shimmer">
+                        <span>Cobain</span>
+                    </button>
+                    <a href="#fitur" class="btn btn-outline btn-lg">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/500x380/4f46e5/ffffff?text=Landing+Page+Hero" alt="Ilustrasi Hero Landing Page">
+            </div>
+        </div>
+    </section>
+
+    <section id="statistik" class="stats-section fade-up">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card btn-neumorphic">
+                    <h3 class="counter" data-target="1500" data-suffix="+">0</h3>
+                    <p>Klien Puas</p>
+                </div>
+                <div class="stat-card btn-neumorphic">
+                    <h3 class="counter" data-target="98" data-suffix="%">0</h3>
+                    <p>Proyek Selesai</p>
+                </div>
+                <div class="stat-card btn-neumorphic">
+                    <h3 class="counter" data-target="250" data-suffix="+">0</h3>
+                    <p>Penghargaan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="fitur" class="features">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>Fitur Unggulan Kami</h2>
+                <p>Didesain khusus untuk mempermudah operasional dan manajemen harian Anda.</p>
+            </div>
+            
+            <div class="features-grid stagger-wrapper">
+                <div class="feature-card stagger-card" style="--delay: 0s;">
+                    <div class="icon">🚀</div>
+                    <h3>Performa Cepat</h3>
+                    <p>Sistem dioptimalkan untuk akses kilat tanpa hambatan di perangkat apa pun.</p>
+                </div>
+                <div class="feature-card stagger-card" style="--delay: 0.2s;">
+                    <div class="icon">🔒</div>
+                    <h3>Keamanan Terjamin</h3>
+                    <p>Enkripsi tingkat tinggi untuk memastikan data bisnis Anda selalu aman.</p>
+                </div>
+                <div class="feature-card stagger-card" style="--delay: 0.4s;">
+                    <div class="icon">📊</div>
+                    <h3>Analitik Real-time</h3>
+                    <p>Pantau perkembangan dan laporan bisnis Anda kapan saja secara akurat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimoni" class="testimonials fade-up">
+        <div class="container">
+            <div class="section-header">
+                <h2>Apa Kata Klien Kami</h2>
+                <p>Pengalaman nyata dari mereka yang telah mempercayakan bisnisnya pada kami.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testi-card">
+                    <p>"Layanan ini sangat membantu efisiensi tim kami. Tampilannya mudah diakses dan fiturnya sangat lengkap."</p>
+                    <div class="user-info">
+                        <h4>Bahrun</h4>
+                        <span>CEO TechCorp</span>
+                    </div>
+                </div>
+                <div class="testi-card">
+                    <p>"Dukungan pelanggan sangat responsif dan fiturnya memotong waktu kerja harian kami hingga 50%."</p>
+                    <div class="user-info">
+                        <h4>Tama</h4>
+                        <span>Founder DigitalKu</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="kontak" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Brand<span>Logo</span></h3>
+                    <p>Platform solusi digital terpercaya untuk pertumbuhan bisnis Anda.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="#beranda">Home</a></li>
+                        <li><a href="#fitur">Fitur</a></li>
+                        <li><a href="#statistik">Statistik</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Dukungan</h4>
+                    <ul>
+                        <li><a href="#">Pusat Bantuan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Hubungi Kami</h4>
+                    <p>Email: rifqiworkplay23@gmail.com</p>
+                    <p>Telepon: 666</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 BrandLogo. Hak Cipta Dilindungi Undang-Undang.</p>
+            </div>
+        </div>
+    </footer>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
